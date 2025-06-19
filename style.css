@@ -121,15 +121,16 @@ footer {
     width: 140px;
     height: 140px;
   }
-}@font-face {
-  font-family: 'MojFont'; /* ime koje želiš koristiti */
-  src:url('RuthaOpacak_a.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'MojFont'; /* naziv pod kojim browser poznaje tvoj font */
+  src: url('RuthaOpacak_a.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 .naslovna h1 {
-  font-family: 'RuthaOpacak_a', sans-serif;
+  font-family: 'MojFont', sans-serif; /* koristi isti naziv kao gore */
   text-align: center;
   font-weight: normal;
   font-size: 3rem;
